@@ -2,6 +2,7 @@
   "version": 2,
   "builds": [
     { "src": "public/memoir.html", "use": "@vercel/static" },
+    { "src": "api/memoir.html", "use": "@vercel/static" },
     { "src": "api/*.js", "use": "@vercel/node" }
   ],
   "routes": [
